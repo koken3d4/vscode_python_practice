@@ -14,11 +14,13 @@ while True:
     rnew = (r1+r2)/2
     print(r1, rnew, r2)
     diff = r1-r2
-    if(diff < 0):
-        diff = -diff
+    diff=abs(diff)
+    # if(diff < 0):
+    #     diff = -diff
     count += 1
     if(diff < 10E-7):
         print(count,diff)
+        break
         
 print(count)
 
