@@ -30,3 +30,10 @@ x=0
 for i in range(5,20,3):
     print(i)
 print("end")
+
+P58
+for i in ["三条", "四条", "五条"]:
+    for j in ["河原町", "烏丸", "堀川"]:
+        cross = i+j
+        print(cross)
+print("end")
