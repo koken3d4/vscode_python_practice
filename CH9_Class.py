@@ -1,9 +1,9 @@
 class Dentak():
-    def __int__(self):  # defの後に半角スペースが必要。そうしないと認識してくれない__は一体なんだろう?
+    def __init__(self):  # defの後に半角スペースが必要。そうしないと認識してくれない__は一体なんだろう?
         self.first_term = 0
         self.second_term = 0
         self.result = 0
-        self_operation = "+"
+        self.operation = "+"
 
     def do_operation(self):
         if self.operation == "+":
@@ -24,3 +24,5 @@ while True:
     dentaku.do_operation()
     r = dentaku.result
     print("Result ", r)
+
+##クラス変数という概念がPython独自かもしれない。そのような変数は他の言語では確認出来ていないので、さてどうしたものか?
