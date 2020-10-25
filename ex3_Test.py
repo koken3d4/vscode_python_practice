@@ -9,29 +9,28 @@ except:
     print("予期しないエラーです")
     exit()
 
-inputNumber=int(inputNumber)
+inputNumber = int(inputNumber)
 for i in range(inputNumber):
-    if(i==3):
+    if(i == 3):
         print(i)
-    elif(i==5):
+    elif(i == 5):
         print(i)
-    else :
+    else:
         print("つらいさんなのだ")
 print("end")
 
 
-
-a=1
-b=0
-if(a==1):
-    if(b==0):
+a = 1
+b = 0
+if(a == 1):
+    if(b == 0):
         print("YES")
-else :
+else:
     print("NO")
 
 
-c=2.9979238593e8
-na=6.02214076323
+c = 2.9979238593e8
+na = 6.02214076323
 
-form='kousokuha{0:12.8g}m/s,abogadorosuuha{1:12.8}.molとなります。'
-print(form.format(c,na))
+form = 'kousokuha{0:12.8g}m/s,abogadorosuuha{1:12.8}.molとなります。'
+print(form.format(c, na))

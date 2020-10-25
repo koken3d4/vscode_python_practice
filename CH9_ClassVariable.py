@@ -8,7 +8,7 @@ class MyClass():
     def __init__(self, data):
         # __numberはインスタンスの通し番号
         self.__number = MyClass.__b
-        self.mydata = data #mydataはインスタンス変数でインスタンスが持つもの。インスタンスによって値は異なる。
+        self.mydata = data  # mydataはインスタンス変数でインスタンスが持つもの。インスタンスによって値は異なる。
         print("MyClass Object ins created,number:", self.__number)
 
         # クラス変数を1増やす
@@ -17,7 +17,7 @@ class MyClass():
         # 通し番号を表示するメソッド
 
     def show_number(self):
-            print(self.__number)
+        print(self.__number)
 
 
 #
