@@ -9,7 +9,7 @@ except:
     print("予期しないエラーです")
     exit()
 
-inputNumber = int(inputNumber)
+inputNumber = int(inputNumber)  #
 for i in range(inputNumber):
     if(i == 3):
         print(i)
