@@ -1,7 +1,7 @@
 import pandas as pd
 
 csv_input = pd.read_csv(
-    filepath_or_buffer=".\practice\秋田県人口データ.csv", encoding="ms932", sep=",")
+    filepath_or_buffer=".\kyodai_practice\practice\秋田県人口データ.csv", encoding="ms932", sep=",")
 # インプットの項目数（行数 * カラム数）を返却します。
 print(csv_input.size)
 # 指定したカラムだけ抽出したDataFrameオブジェクトを返却します。
